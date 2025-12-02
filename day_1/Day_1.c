@@ -9,7 +9,7 @@ int to_the_right(int amount, int start_pos, int *counter);
 int main(int argc, char *argv[]){
     if (argc < 2){
         printf("not enough program arguments!! try again please!\n");
-   exit(1);
+       exit(1);
     }
     
     FILE *fp_in = NULL;
@@ -44,6 +44,7 @@ int main(int argc, char *argv[]){
      
     printf("the amount of 0's is = %d\n",actual_zero_hits);
     printf("the amount of passing the 0 is = %d\n",zero_counter);
+    fclose(fp_in);
     return 0;
 }
 
