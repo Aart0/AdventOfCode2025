@@ -24,7 +24,7 @@
 - [x] first part
 - [ ] second part
 ### Day 8
-- [ ] first part
+- [x] first part
 - [ ] second part
 ### Day 9
 - [ ] first part
